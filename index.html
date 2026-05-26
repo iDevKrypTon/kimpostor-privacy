@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Política de Privacidad — K-Impostor</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #0d0d0d;
+            color: #e0e0e0;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container { max-width: 780px; margin: 0 auto; }
+        .logo { color: #ff4757; font-size: 2rem; font-weight: 900; letter-spacing: 2px; margin-bottom: 4px; }
+        .subtitle { color: #888; font-size: 0.9rem; margin-bottom: 40px; }
+        .lang-switcher { display: flex; gap: 12px; margin-bottom: 36px; }
+        .lang-btn {
+            padding: 6px 18px; border-radius: 20px; border: 1px solid #ff4757;
+            background: transparent; color: #ff4757; cursor: pointer; font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+        .lang-btn.active, .lang-btn:hover { background: #ff4757; color: #fff; }
+        .section { margin-bottom: 32px; }
+        h1 { font-size: 1.6rem; color: #fff; margin-bottom: 8px; }
+        h2 { font-size: 1.1rem; color: #ff4757; margin-bottom: 8px; }
+        p { color: #bbb; margin-bottom: 8px; }
+        .updated { color: #666; font-size: 0.82rem; margin-bottom: 32px; }
+        .highlight { color: #ff4757; font-weight: 600; }
+        [lang-content] { display: none; }
+        [lang-content].visible { display: block; }
+        footer { margin-top: 60px; color: #444; font-size: 0.8rem; text-align: center; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="logo">K-IMPOSTOR</div>
+    <div class="subtitle">by Krypton</div>
+
+    <div class="lang-switcher">
+        <button class="lang-btn active" onclick="setLang('es')">Español</button>
+        <button class="lang-btn" onclick="setLang('en')">English</button>
+    </div>
+
+    <!-- ESPAÑOL -->
+    <div lang-content="es" class="visible">
+        <h1>Política de Privacidad</h1>
+        <p class="updated">Última actualización: Mayo 2025</p>
+
+        <div class="section">
+            <h2>1. Información general</h2>
+            <p>
+                <span class="highlight">K-Impostor</span> es un juego de mesa digital desarrollado por
+                <span class="highlight">Krypton</span>. Esta política explica cómo tratamos la información
+                dentro de la aplicación.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>2. Datos que NO recopilamos</h2>
+            <p>K-Impostor <strong>no recopila, almacena ni transmite ningún dato personal</strong> a servidores externos. En concreto:</p>
+            <p>— No pedimos nombre, correo, ni ningún dato de identificación.</p>
+            <p>— No usamos publicidad ni redes de anuncios.</p>
+            <p>— No integramos analíticas de terceros (Firebase, Mixpanel, etc.).</p>
+            <p>— No tenemos acceso a tu cámara, micrófono, contactos ni ubicación.</p>
+            <p>— No creamos cuentas de usuario.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. Datos almacenados localmente</h2>
+            <p>
+                La app guarda los <strong>nombres de los jugadores y sus avatares</strong> en la memoria
+                local del dispositivo (base de datos SQLite). Estos datos nunca salen de tu teléfono
+                y se eliminan si desinstala la aplicación.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>4. Permisos</h2>
+            <p>K-Impostor no solicita ningún permiso especial del sistema Android.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Menores de edad</h2>
+            <p>
+                La aplicación no recopila datos de ningún usuario, incluidos menores de edad,
+                por lo que es segura para todas las edades.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>6. Cambios en esta política</h2>
+            <p>
+                Si en el futuro se añaden funcionalidades que impliquen tratamiento de datos,
+                esta página se actualizará y se notificará en la descripción de la app.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>7. Contacto</h2>
+            <p>
+                Para cualquier duda relacionada con la privacidad puedes escribir a:
+                <a href="mailto:idevkrypton@gmail.com" style="color:#ff4757;">idevkrypton@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- ENGLISH -->
+    <div lang-content="en">
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: May 2025</p>
+
+        <div class="section">
+            <h2>1. Overview</h2>
+            <p>
+                <span class="highlight">K-Impostor</span> is a digital party game developed by
+                <span class="highlight">Krypton</span>. This policy explains how information is
+                handled within the application.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>2. Data we do NOT collect</h2>
+            <p>K-Impostor <strong>does not collect, store or transmit any personal data</strong> to external servers. Specifically:</p>
+            <p>— We do not ask for your name, email or any identifying information.</p>
+            <p>— We do not use advertising or ad networks.</p>
+            <p>— We do not integrate third-party analytics (Firebase, Mixpanel, etc.).</p>
+            <p>— We do not access your camera, microphone, contacts or location.</p>
+            <p>— We do not create user accounts.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. Locally stored data</h2>
+            <p>
+                The app saves <strong>player names and avatars</strong> in the device's local storage
+                (SQLite database). This data never leaves your phone and is deleted when the app
+                is uninstalled.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>4. Permissions</h2>
+            <p>K-Impostor does not request any special Android system permissions.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Children</h2>
+            <p>
+                The app does not collect data from any user, including children,
+                making it safe for all ages.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>6. Changes to this policy</h2>
+            <p>
+                If future features require data processing, this page will be updated
+                and users will be notified in the app's store description.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>7. Contact</h2>
+            <p>
+                For any privacy-related questions, contact us at:
+                <a href="mailto:idevkrypton@gmail.com" style="color:#ff4757;">idevkrypton@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>© 2025 Krypton · K-Impostor</footer>
+</div>
+
+<script>
+    function setLang(lang) {
+        document.querySelectorAll('[lang-content]').forEach(el => {
+            el.classList.toggle('visible', el.getAttribute('lang-content') === lang);
+        });
+        document.querySelectorAll('.lang-btn').forEach((btn, i) => {
+            btn.classList.toggle('active', (i === 0 && lang === 'es') || (i === 1 && lang === 'en'));
+        });
+    }
+</script>
+</body>
+</html>
