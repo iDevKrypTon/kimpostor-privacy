@@ -1,188 +1,1206 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Política de Privacidad — K-Impostor</title>
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: #0d0d0d;
-            color: #e0e0e0;
-            line-height: 1.7;
-            padding: 40px 20px;
-        }
-        .container { max-width: 780px; margin: 0 auto; }
-        .logo { color: #ff4757; font-size: 2rem; font-weight: 900; letter-spacing: 2px; margin-bottom: 4px; }
-        .subtitle { color: #888; font-size: 0.9rem; margin-bottom: 40px; }
-        .lang-switcher { display: flex; gap: 12px; margin-bottom: 36px; }
-        .lang-btn {
-            padding: 6px 18px; border-radius: 20px; border: 1px solid #ff4757;
-            background: transparent; color: #ff4757; cursor: pointer; font-size: 0.85rem;
-            transition: all 0.2s;
-        }
-        .lang-btn.active, .lang-btn:hover { background: #ff4757; color: #fff; }
-        .section { margin-bottom: 32px; }
-        h1 { font-size: 1.6rem; color: #fff; margin-bottom: 8px; }
-        h2 { font-size: 1.1rem; color: #ff4757; margin-bottom: 8px; }
-        p { color: #bbb; margin-bottom: 8px; }
-        .updated { color: #666; font-size: 0.82rem; margin-bottom: 32px; }
-        .highlight { color: #ff4757; font-weight: 600; }
-        [lang-content] { display: none; }
-        [lang-content].visible { display: block; }
-        footer { margin-top: 60px; color: #444; font-size: 0.8rem; text-align: center; }
-    </style>
-</head>
-<body>
-<div class="container">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KBook · Reservas para tu negocio</title>
+  <meta name="description"
+    content="La app donde tus clientes reservan solos desde su móvil, con recordatorios automáticos y tu agenda del día de un vistazo. Cuota fija, sin comisiones y con tus clientes siempre tuyos." />
+  <meta name="theme-color" content="#15112E" />
 
-    <div class="logo">K-IMPOSTOR</div>
-    <div class="subtitle">by Krypton</div>
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- Iconos Tabler -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.1.0/dist/tabler-icons.min.css" />
 
-    <div class="lang-switcher">
-        <button class="lang-btn active" onclick="setLang('es')">Español</button>
-        <button class="lang-btn" onclick="setLang('en')">English</button>
-    </div>
-
-    <!-- ESPAÑOL -->
-    <div lang-content="es" class="visible">
-        <h1>Política de Privacidad</h1>
-        <p class="updated">Última actualización: Mayo 2025</p>
-
-        <div class="section">
-            <h2>1. Información general</h2>
-            <p>
-                <span class="highlight">K-Impostor</span> es un juego de mesa digital desarrollado por
-                <span class="highlight">Krypton</span>. Esta política explica cómo tratamos la información
-                dentro de la aplicación.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>2. Datos que NO recopilamos</h2>
-            <p>K-Impostor <strong>no recopila, almacena ni transmite ningún dato personal</strong> a servidores externos. En concreto:</p>
-            <p>— No pedimos nombre, correo, ni ningún dato de identificación.</p>
-            <p>— No usamos publicidad ni redes de anuncios.</p>
-            <p>— No integramos analíticas de terceros (Firebase, Mixpanel, etc.).</p>
-            <p>— No tenemos acceso a tu cámara, micrófono, contactos ni ubicación.</p>
-            <p>— No creamos cuentas de usuario.</p>
-        </div>
-
-        <div class="section">
-            <h2>3. Datos almacenados localmente</h2>
-            <p>
-                La app guarda los <strong>nombres de los jugadores y sus avatares</strong> en la memoria
-                local del dispositivo (base de datos SQLite). Estos datos nunca salen de tu teléfono
-                y se eliminan si desinstala la aplicación.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>4. Permisos</h2>
-            <p>K-Impostor no solicita ningún permiso especial del sistema Android.</p>
-        </div>
-
-        <div class="section">
-            <h2>5. Menores de edad</h2>
-            <p>
-                La aplicación no recopila datos de ningún usuario, incluidos menores de edad,
-                por lo que es segura para todas las edades.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>6. Cambios en esta política</h2>
-            <p>
-                Si en el futuro se añaden funcionalidades que impliquen tratamiento de datos,
-                esta página se actualizará y se notificará en la descripción de la app.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>7. Contacto</h2>
-            <p>
-                Para cualquier duda relacionada con la privacidad puedes escribir a:
-                <a href="mailto:idevkrypton@gmail.com" style="color:#ff4757;">idevkrypton@gmail.com</a>
-            </p>
-        </div>
-    </div>
-
-    <!-- ENGLISH -->
-    <div lang-content="en">
-        <h1>Privacy Policy</h1>
-        <p class="updated">Last updated: May 2025</p>
-
-        <div class="section">
-            <h2>1. Overview</h2>
-            <p>
-                <span class="highlight">K-Impostor</span> is a digital party game developed by
-                <span class="highlight">Krypton</span>. This policy explains how information is
-                handled within the application.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>2. Data we do NOT collect</h2>
-            <p>K-Impostor <strong>does not collect, store or transmit any personal data</strong> to external servers. Specifically:</p>
-            <p>— We do not ask for your name, email or any identifying information.</p>
-            <p>— We do not use advertising or ad networks.</p>
-            <p>— We do not integrate third-party analytics (Firebase, Mixpanel, etc.).</p>
-            <p>— We do not access your camera, microphone, contacts or location.</p>
-            <p>— We do not create user accounts.</p>
-        </div>
-
-        <div class="section">
-            <h2>3. Locally stored data</h2>
-            <p>
-                The app saves <strong>player names and avatars</strong> in the device's local storage
-                (SQLite database). This data never leaves your phone and is deleted when the app
-                is uninstalled.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>4. Permissions</h2>
-            <p>K-Impostor does not request any special Android system permissions.</p>
-        </div>
-
-        <div class="section">
-            <h2>5. Children</h2>
-            <p>
-                The app does not collect data from any user, including children,
-                making it safe for all ages.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>6. Changes to this policy</h2>
-            <p>
-                If future features require data processing, this page will be updated
-                and users will be notified in the app's store description.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>7. Contact</h2>
-            <p>
-                For any privacy-related questions, contact us at:
-                <a href="mailto:idevkrypton@gmail.com" style="color:#ff4757;">idevkrypton@gmail.com</a>
-            </p>
-        </div>
-    </div>
-
-    <footer>© 2025 Krypton · K-Impostor</footer>
-</div>
-
-<script>
-    function setLang(lang) {
-        document.querySelectorAll('[lang-content]').forEach(el => {
-            el.classList.toggle('visible', el.getAttribute('lang-content') === lang);
-        });
-        document.querySelectorAll('.lang-btn').forEach((btn, i) => {
-            btn.classList.toggle('active', (i === 0 && lang === 'es') || (i === 1 && lang === 'en'));
-        });
+  <style>
+    :root {
+      /* Paleta "Dúo" — violeta → turquesa (CLAUDE.md §5) */
+      --azul-profundo: #15112E;
+      --azul-superficie-osc: #211B40;
+      --azul-marca: #6C4DFF;
+      --turquesa: #00C2A8;
+      --violeta-claro: #8A6CFF;
+      --azul-claro-borde: #352D5C;
+      --azul-texto-claro: #D2CCF2;
+      --azul-texto-tenue: #948CC4;
+      --info-bg: #ECE9FD;
+      --info-texto: #3A2E8C;
+      --exito: #00C2A8;
+      --error: #E5484D;
+      --texto-primario: #1A1A1A;
+      --texto-secundario: #524E66;
+      --texto-tenue: #8B86A1;
+      --bg-pagina: #F4F2FB;
+      --bg-superficie: #FBFAFE;
+      --bg-blanco: #FFFFFF;
+      --borde: rgba(21, 17, 46, 0.10);
+      --gradiente-marca: linear-gradient(135deg, #6C4DFF, #00C2A8);
+      --radio-md: 8px;
+      --radio-lg: 12px;
     }
-</script>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg-pagina);
+      color: var(--texto-primario);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding: 1.5rem;
+    }
+
+    /* Texto con degradado de marca reutilizable */
+    .degradado {
+      background: var(--gradiente-marca);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: #6C4DFF;
+      /* fallback visible — nunca color:transparent */
+    }
+
+    .tarjeta-landing {
+      max-width: 660px;
+      margin: 0 auto;
+      background: var(--bg-blanco);
+      border: 0.5px solid var(--borde);
+      border-radius: var(--radio-lg);
+      overflow: hidden;
+    }
+
+    /* HÉROE */
+    .heroe {
+      background: var(--azul-profundo);
+      padding: 2.75rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .circulo-deco {
+      position: absolute;
+      border: 1px solid var(--azul-claro-borde);
+      border-radius: 50%;
+      opacity: 0.45;
+    }
+
+    .circulo-1 {
+      left: -60px;
+      bottom: -60px;
+      width: 200px;
+      height: 200px;
+    }
+
+    .circulo-2 {
+      right: -30px;
+      top: -50px;
+      width: 160px;
+      height: 160px;
+    }
+
+    .circulo-3 {
+      right: 10px;
+      top: -10px;
+      width: 80px;
+      height: 80px;
+    }
+
+    .heroe-contenido {
+      position: relative;
+    }
+
+    .marca {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-bottom: 1.75rem;
+    }
+
+    .marca-icono {
+      width: 34px;
+      height: 34px;
+      border-radius: var(--radio-md);
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .marca-icono span {
+      font-size: 21px;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .marca-nombre {
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .heroe-titular {
+      font-size: 27px;
+      font-weight: 600;
+      color: #fff;
+      margin: 0 auto 14px;
+      max-width: 480px;
+      line-height: 1.32;
+      letter-spacing: -0.01em;
+    }
+
+    /* Titular en dos líneas separadas para mejor tabulado */
+    .heroe-titular .linea {
+      display: block;
+    }
+
+    .heroe-subtitulo {
+      font-size: 15px;
+      color: var(--azul-texto-claro);
+      margin: 0 auto 1.75rem;
+      max-width: 440px;
+      line-height: 1.6;
+    }
+
+    .boton-cta {
+      display: inline-block;
+      background: var(--gradiente-marca);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 13px 28px;
+      border-radius: var(--radio-md);
+      text-decoration: none;
+      transition: opacity 0.15s, transform 0.15s;
+    }
+
+    .boton-cta:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+
+    .heroe-nota {
+      font-size: 12px;
+      color: var(--azul-texto-tenue);
+      margin-top: 12px;
+    }
+
+    /* SECTORES (multi-sector) — texto plano, sin apariencia de botón */
+    .sectores {
+      padding: 1.5rem 2rem 0.5rem;
+      text-align: center;
+    }
+
+    .sectores-intro {
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--azul-marca);
+      margin-bottom: 0.6rem;
+    }
+
+    .sectores-lista {
+      font-size: 14px;
+      color: var(--texto-secundario);
+      line-height: 1.9;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .sectores-lista .punto {
+      color: var(--texto-tenue);
+      margin: 0 6px;
+    }
+
+    /* SECCIÓN genérica */
+    .seccion {
+      padding: 2rem;
+    }
+
+    .seccion-etiqueta {
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--azul-marca);
+      text-align: center;
+      margin-bottom: 0.4rem;
+    }
+
+    .titulo-seccion {
+      font-size: 19px;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 1.4rem;
+      letter-spacing: -0.01em;
+    }
+
+    /* NECESIDADES */
+    .grid-dolor {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+
+    .tarjeta-dolor {
+      background: var(--bg-superficie);
+      border: 0.5px solid var(--borde);
+      border-radius: var(--radio-md);
+      padding: 1.1rem 1rem;
+    }
+
+    .tarjeta-dolor i {
+      font-size: 22px;
+      color: var(--azul-marca);
+    }
+
+    .tarjeta-dolor h3 {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 8px 0 4px;
+    }
+
+    .tarjeta-dolor p {
+      font-size: 13px;
+      color: var(--texto-secundario);
+      line-height: 1.5;
+    }
+
+    /* SOLUCIONES */
+    .lista-beneficios {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .beneficio {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+
+    .beneficio-icono {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: var(--radio-md);
+      background: var(--info-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .beneficio-icono i {
+      font-size: 20px;
+      color: var(--azul-marca);
+    }
+
+    .beneficio h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .beneficio p {
+      font-size: 13px;
+      color: var(--texto-secundario);
+      line-height: 1.55;
+    }
+
+    /* DIFERENCIA */
+    .seccion-diferencia {
+      background: var(--bg-superficie);
+      border-top: 0.5px solid var(--borde);
+      border-bottom: 0.5px solid var(--borde);
+    }
+
+    .grid-diferencia {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 18px;
+    }
+
+    .diferencia-item {
+      text-align: center;
+      padding: 0 0.25rem;
+    }
+
+    .diferencia-item i {
+      font-size: 26px;
+      color: var(--turquesa);
+    }
+
+    .diferencia-item h3 {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 10px 0 5px;
+    }
+
+    .diferencia-item p {
+      font-size: 12.5px;
+      color: var(--texto-secundario);
+      line-height: 1.5;
+    }
+
+    /* ================= CALCULADORA ================= */
+    .calc {
+      padding: 2rem;
+      background: var(--bg-superficie);
+      border-top: 0.5px solid var(--borde);
+    }
+
+    .calc *,
+    .calc *::before,
+    .calc *::after {
+      box-sizing: border-box;
+    }
+
+    .calc-card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      background: var(--bg-blanco);
+      border: 1px solid var(--borde);
+      border-radius: var(--radio-lg);
+      overflow: hidden;
+    }
+
+    .calc-form {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .calc-head {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .calc-head-icon {
+      flex: 0 0 auto;
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--radio-md);
+      background: var(--gradiente-marca);
+      color: #fff;
+      font-size: 21px;
+    }
+
+    .calc-titulo {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.3;
+      color: var(--texto-primario);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .calc-sub {
+      margin: 4px 0 0;
+      font-size: 13px;
+      color: var(--texto-tenue);
+    }
+
+    .calc-campo {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .calc-label {
+      font-size: 13px;
+      color: var(--texto-secundario);
+    }
+
+    .calc-num {
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--borde);
+      border-radius: var(--radio-md);
+      overflow: hidden;
+      background: var(--bg-superficie);
+    }
+
+    .calc-num:focus-within {
+      border-color: var(--azul-marca);
+      box-shadow: 0 0 0 3px rgba(108, 77, 255, 0.14);
+    }
+
+    .calc-input {
+      flex: 1;
+      min-width: 0;
+      border: 0;
+      background: transparent;
+      text-align: center;
+      font-size: 20px;
+      font-family: inherit;
+      color: var(--texto-primario);
+      padding: 11px 4px;
+      -moz-appearance: textfield;
+    }
+
+    .calc-input:focus {
+      outline: none;
+    }
+
+    .calc-input::-webkit-outer-spin-button,
+    .calc-input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    .calc-step {
+      flex: 0 0 auto;
+      width: 44px;
+      height: 44px;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+      color: var(--azul-marca);
+      font-size: 18px;
+      display: grid;
+      place-items: center;
+      transition: background .15s;
+    }
+
+    .calc-step:hover {
+      background: var(--info-bg);
+    }
+
+    .calc-select-wrap {
+      position: relative;
+    }
+
+    .calc-select {
+      width: 100%;
+      appearance: none;
+      -webkit-appearance: none;
+      border: 1px solid var(--borde);
+      border-radius: var(--radio-md);
+      background: var(--bg-superficie);
+      padding: 12px 38px 12px 14px;
+      font-size: 14.5px;
+      font-family: inherit;
+      color: var(--texto-primario);
+      cursor: pointer;
+    }
+
+    .calc-select:focus {
+      outline: none;
+      border-color: var(--azul-marca);
+      box-shadow: 0 0 0 3px rgba(108, 77, 255, 0.14);
+    }
+
+    .calc-select-icon {
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      color: var(--texto-tenue);
+      font-size: 16px;
+    }
+
+    .calc-disclaimer {
+      margin: 0;
+      font-size: 11.5px;
+      line-height: 1.5;
+      color: var(--texto-tenue);
+      display: flex;
+      gap: 6px;
+      align-items: flex-start;
+    }
+
+    .calc-disclaimer .ti {
+      margin-top: 1px;
+    }
+
+    .calc-results {
+      padding: 22px;
+      background: var(--azul-profundo);
+      color: var(--azul-texto-claro);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .calc-results-kicker {
+      margin: 0;
+      font-size: 11px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--azul-texto-tenue);
+    }
+
+    .calc-hero {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .calc-hero-num {
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1;
+      background: var(--gradiente-marca);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: var(--violeta-claro);
+    }
+
+    .calc-hero-unit {
+      font-size: 15px;
+      color: var(--azul-texto-tenue);
+    }
+
+    .calc-jornadas {
+      margin: -4px 0 0;
+      font-size: 13.5px;
+      line-height: 1.45;
+      color: var(--azul-texto-claro);
+    }
+
+    .calc-destacado {
+      color: var(--turquesa);
+    }
+
+    .calc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 2px;
+    }
+
+    .calc-metric {
+      background: var(--azul-superficie-osc);
+      border: 1px solid var(--azul-claro-borde);
+      border-radius: var(--radio-md);
+      padding: 11px 13px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .calc-metric-label {
+      font-size: 12px;
+      color: var(--azul-texto-tenue);
+    }
+
+    .calc-metric-val {
+      font-size: 17px;
+      font-weight: 500;
+      color: var(--azul-texto-claro);
+    }
+
+    .calc-metric--acento {
+      border-color: rgba(0, 194, 168, 0.45);
+    }
+
+    .calc-metric--acento .calc-metric-val {
+      color: var(--turquesa);
+      font-size: 14px;
+    }
+
+    .calc-metric--acento .ti {
+      font-size: 14px;
+      vertical-align: -1px;
+    }
+
+    /* FORMULARIO */
+    .seccion-form {
+      background: var(--azul-profundo);
+      padding: 2.25rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .seccion-form .circulo-deco {
+      opacity: 0.35;
+    }
+
+    .form-contenido {
+      position: relative;
+    }
+
+    .form-titulo {
+      font-size: 19px;
+      font-weight: 600;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    .form-subtitulo {
+      font-size: 13px;
+      color: var(--azul-texto-claro);
+      text-align: center;
+      margin: 0 auto 1.25rem;
+      max-width: 380px;
+      line-height: 1.55;
+    }
+
+    .form-campos {
+      max-width: 380px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .form-campos input[type="text"],
+    .form-campos input[type="email"] {
+      width: 100%;
+      height: 44px;
+      padding: 0 14px;
+      font-size: 15px;
+      font-family: inherit;
+      border: 1px solid var(--azul-claro-borde);
+      border-radius: var(--radio-md);
+      background: var(--azul-superficie-osc);
+      color: #fff;
+      transition: border-color 0.15s;
+    }
+
+    .form-campos input::placeholder {
+      color: var(--azul-texto-tenue);
+    }
+
+    .form-campos input:focus {
+      outline: none;
+      border-color: var(--azul-marca);
+    }
+
+    .form-campos input.error {
+      border-color: var(--error);
+    }
+
+    .form-consentimiento {
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+      font-size: 12px;
+      color: var(--azul-texto-claro);
+      line-height: 1.45;
+      margin: 2px 0;
+    }
+
+    .form-consentimiento input {
+      margin-top: 2px;
+      flex-shrink: 0;
+      accent-color: var(--azul-marca);
+    }
+
+    .form-consentimiento a {
+      color: var(--violeta-claro);
+    }
+
+    .boton-enviar {
+      background: var(--gradiente-marca);
+      color: #fff;
+      border: none;
+      padding: 13px;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: var(--radio-md);
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+
+    .boton-enviar:hover {
+      opacity: 0.92;
+    }
+
+    .boton-enviar:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .form-nota-legal {
+      font-size: 11px;
+      color: var(--azul-texto-tenue);
+      text-align: center;
+      margin-top: 4px;
+    }
+
+    .form-error-msg {
+      font-size: 13px;
+      color: #FF9DA0;
+      text-align: center;
+      display: none;
+    }
+
+    .form-exito {
+      display: none;
+      max-width: 380px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+
+    .form-exito i {
+      font-size: 40px;
+      color: var(--turquesa);
+    }
+
+    .form-exito h3 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #fff;
+      margin: 10px 0 4px;
+    }
+
+    .form-exito p {
+      font-size: 13px;
+      color: var(--azul-texto-claro);
+    }
+
+    /* PIE */
+    .pie {
+      padding: 1.25rem 2rem;
+      text-align: center;
+      background: var(--bg-superficie);
+      border-top: 0.5px solid var(--borde);
+    }
+
+    .pie p {
+      font-size: 12px;
+      color: var(--texto-tenue);
+    }
+
+    .pie a {
+      color: var(--azul-marca);
+      text-decoration: none;
+    }
+
+    @media (max-width: 720px) {
+      .calc-card {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 0;
+      }
+
+      .tarjeta-landing {
+        border-radius: 0;
+        border: none;
+      }
+
+      .heroe-titular {
+        font-size: 23px;
+      }
+
+      .calc-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="tarjeta-landing">
+
+    <!-- HÉROE -->
+    <header class="heroe">
+      <span class="circulo-deco circulo-1"></span>
+      <span class="circulo-deco circulo-2"></span>
+      <span class="circulo-deco circulo-3"></span>
+      <div class="heroe-contenido">
+        <div class="marca">
+          <span class="marca-icono"><span class="degradado">K</span></span>
+          <span class="marca-nombre degradado">KBook</span>
+        </div>
+        <h1 class="heroe-titular">
+          <span class="linea">Tus clientes reservan solos.</span>
+          <span class="linea">Tú dejas de coger el teléfono.</span>
+        </h1>
+        <p class="heroe-subtitulo">KBook es la app donde tus clientes eligen hueco desde su móvil las 24 horas, con
+          tu enlace o tu QR. Tú lo ves todo en tu agenda, sin llamadas ni libreta.</p>
+        <a href="#form" class="boton-cta">Apúntate gratis a la lista de espera</a>
+        <p class="heroe-nota">Sin tarjeta. Los primeros negocios la prueban gratis.</p>
+      </div>
+    </header>
+
+    <!-- SECTORES -->
+    <section class="sectores">
+      <p class="sectores-intro">Para cualquier negocio con reserva o cita previa</p>
+      <p class="sectores-lista">
+        Peluquerías <span class="punto">·</span> Barberías <span class="punto">·</span> Estética
+        <span class="punto">·</span> Uñas <span class="punto">·</span> Tatuajes <span class="punto">·</span>
+        Fisioterapia <span class="punto">·</span> Restaurantes <span class="punto">·</span> y más
+      </p>
+    </section>
+
+    <!-- NECESIDADES -->
+    <section class="seccion">
+      <p class="seccion-etiqueta">Tu día a día</p>
+      <h2 class="titulo-seccion">Lo que te frena hoy</h2>
+      <div class="grid-dolor">
+        <div class="tarjeta-dolor">
+          <i class="ti ti-phone" aria-hidden="true"></i>
+          <h3>El teléfono no para</h3>
+          <p>Suena mientras atiendes, y cada llamada para pedir hora te corta el trabajo con el cliente que tienes
+            delante.</p>
+        </div>
+        <div class="tarjeta-dolor">
+          <i class="ti ti-user-x" aria-hidden="true"></i>
+          <h3>Citas que no aparecen</h3>
+          <p>Reservan y no vienen, no avisan, y ese hueco vacío es dinero que no vuelve.</p>
+        </div>
+        <div class="tarjeta-dolor">
+          <i class="ti ti-notebook" aria-hidden="true"></i>
+          <h3>Todo en una libreta</h3>
+          <p>Tachones, notas sueltas y horas que solo tú entiendes: un despiste y hay dos personas a la misma hora.</p>
+        </div>
+        <div class="tarjeta-dolor">
+          <i class="ti ti-lock" aria-hidden="true"></i>
+          <h3>Clientes que no son tuyos</h3>
+          <p>En otras plataformas tu clientela queda a nombre de la app, y pagas una comisión cada vez que alguien
+            reserva.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALCULADORA -->
+    <section class="calc" aria-labelledby="calc-titulo">
+      <div class="calc-card">
+        <div class="calc-form">
+          <header class="calc-head">
+            <span class="calc-head-icon" aria-hidden="true"><i class="ti ti-clock-hour-4"></i></span>
+            <div>
+              <h2 id="calc-titulo" class="calc-titulo">¿Cuánto tiempo pierdes gestionando citas a mano?</h2>
+              <p class="calc-sub">Calcúlalo en 10 segundos. Sin registrarte.</p>
+            </div>
+          </header>
+
+          <div class="calc-campo">
+            <label class="calc-label" for="calc-citas">Citas o reservas que gestionas al día</label>
+            <div class="calc-num">
+              <button type="button" class="calc-step" data-step="-1" aria-label="Restar una cita">
+                <i class="ti ti-minus" aria-hidden="true"></i>
+              </button>
+              <input id="calc-citas" class="calc-input" type="number" inputmode="numeric" min="0" max="200" step="1"
+                value="10" aria-describedby="calc-nota">
+              <button type="button" class="calc-step" data-step="1" aria-label="Sumar una cita">
+                <i class="ti ti-plus" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="calc-campo">
+            <label class="calc-label" for="calc-metodo">¿Cómo las gestionas hoy?</label>
+            <div class="calc-select-wrap">
+              <i class="ti ti-chevron-down calc-select-icon" aria-hidden="true"></i>
+              <select id="calc-metodo" class="calc-select">
+                <option value="5">En una libreta o papel</option>
+                <option value="7">En la cabeza / de memoria</option>
+                <option value="6" selected>Por WhatsApp o llamadas</option>
+                <option value="3.5">En una hoja de cálculo u otra app</option>
+              </select>
+            </div>
+          </div>
+
+          <p id="calc-nota" class="calc-disclaimer">
+            <i class="ti ti-info-circle" aria-hidden="true"></i>
+            Estimación orientativa basada en 6 días/semana y 300 días/año.
+          </p>
+        </div>
+
+        <div class="calc-results" role="region" aria-live="polite" aria-label="Resultado del cálculo">
+          <p class="calc-results-kicker">Tiempo dedicado a gestionar reservas</p>
+
+          <div class="calc-hero">
+            <span class="calc-hero-num" id="calc-anio">—</span>
+            <span class="calc-hero-unit">al año</span>
+          </div>
+
+          <p class="calc-jornadas" id="calc-jornadas">—</p>
+
+          <div class="calc-grid">
+            <div class="calc-metric">
+              <span class="calc-metric-label">Al día</span>
+              <span class="calc-metric-val" id="calc-dia">—</span>
+            </div>
+            <div class="calc-metric">
+              <span class="calc-metric-label">A la semana</span>
+              <span class="calc-metric-val" id="calc-semana">—</span>
+            </div>
+            <div class="calc-metric">
+              <span class="calc-metric-label">Al mes</span>
+              <span class="calc-metric-val" id="calc-mes">—</span>
+            </div>
+            <div class="calc-metric calc-metric--acento">
+              <span class="calc-metric-label">Podrías recuperarlo</span>
+              <span class="calc-metric-val"><i class="ti ti-checks" aria-hidden="true"></i> con KBook</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUCIONES -->
+    <section class="seccion">
+      <p class="seccion-etiqueta">La solución</p>
+      <h2 class="titulo-seccion">Todo tu negocio, ordenado en una app</h2>
+      <div class="lista-beneficios">
+        <div class="beneficio">
+          <span class="beneficio-icono"><i class="ti ti-clock-24" aria-hidden="true"></i></span>
+          <div>
+            <h3>Reservan sin llamarte</h3>
+            <p>Compartes tu enlace o tu QR y tus clientes eligen hueco solos, a cualquier hora. Tú dejas de coger el
+              teléfono.</p>
+          </div>
+        </div>
+        <div class="beneficio">
+          <span class="beneficio-icono"><i class="ti ti-bell-ringing" aria-hidden="true"></i></span>
+          <div>
+            <h3>Menos ausencias, más ingresos</h3>
+            <p>KBook envía recordatorios automáticos antes de cada cita, así que se presentan más clientes y pierdes
+              menos huecos.</p>
+          </div>
+        </div>
+        <div class="beneficio">
+          <span class="beneficio-icono"><i class="ti ti-layout-grid" aria-hidden="true"></i></span>
+          <div>
+            <h3>Tu agenda del día de un vistazo</h3>
+            <p>Ves las citas de hoy y de la semana ordenadas por profesional, con los datos del cliente y el servicio,
+              sin libretas.</p>
+          </div>
+        </div>
+        <div class="beneficio">
+          <span class="beneficio-icono"><i class="ti ti-calendar-check" aria-hidden="true"></i></span>
+          <div>
+            <h3>Nunca dos citas en el mismo hueco</h3>
+            <p>Cada hora se bloquea en el momento en que alguien la reserva, así que es imposible que dos clientes cojan
+              la misma.</p>
+          </div>
+        </div>
+        <div class="beneficio">
+          <span class="beneficio-icono"><i class="ti ti-heart-handshake" aria-hidden="true"></i></span>
+          <div>
+            <h3>Tus clientes siguen siendo tuyos</h3>
+            <p>Cuota fija al mes y cero comisiones por reserva. Tu clientela es tuya, no de la plataforma.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIA -->
+    <section class="seccion seccion-diferencia">
+      <p class="seccion-etiqueta">Por qué KBook</p>
+      <h2 class="titulo-seccion">La diferencia</h2>
+      <div class="grid-diferencia">
+        <div class="diferencia-item">
+          <i class="ti ti-users" aria-hidden="true"></i>
+          <h3>Tus clientes son tuyos</h3>
+          <p>Sus datos y su historial están a tu nombre, no a nombre de una plataforma que se los queda.</p>
+        </div>
+        <div class="diferencia-item">
+          <i class="ti ti-receipt" aria-hidden="true"></i>
+          <h3>Cuota fija, sin comisiones</h3>
+          <p>Pagas lo mismo cada mes reserves las citas que reserves. Ni un céntimo por reserva.</p>
+        </div>
+        <div class="diferencia-item">
+          <i class="ti ti-headset" aria-hidden="true"></i>
+          <h3>Soporte cercano y en español</h3>
+          <p>Detrás de KBook hay una persona que te atiende en tu idioma y te ayuda a ponerlo en marcha.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="seccion-form" id="form">
+      <span class="circulo-deco circulo-1"></span>
+      <span class="circulo-deco circulo-2"></span>
+      <div class="form-contenido">
+        <h2 class="form-titulo">Apúntate a la lista de espera</h2>
+        <p class="form-subtitulo">Déjanos tu negocio y tu correo, y te avisamos en cuanto puedas empezar a usar KBook
+          gratis.</p>
+
+        <div class="form-campos" id="form-campos">
+          <input type="text" id="nombre" placeholder="Nombre de tu negocio" autocomplete="organization" />
+          <input type="email" id="email" placeholder="Tu email" autocomplete="email" />
+          <label class="form-consentimiento">
+            <input type="checkbox" id="consentimiento" />
+            <span>Acepto que KBook guarde mi nombre y email para avisarme del lanzamiento. Consulta la <a
+                href="privacidad.html" target="_blank" rel="noopener">política de privacidad</a>.</span>
+          </label>
+          <button class="boton-enviar" id="boton-enviar" onclick="enviarFormulario()">Apuntarme a la lista</button>
+          <p class="form-error-msg" id="form-error">Revisa los datos: necesitamos un email válido y tu
+            consentimiento.</p>
+          <p class="form-nota-legal">Cumplimos el RGPD. No compartimos tus datos con nadie.</p>
+        </div>
+
+        <div class="form-exito" id="form-exito">
+          <i class="ti ti-circle-check" aria-hidden="true"></i>
+          <h3>¡Apuntado!</h3>
+          <p>Te escribiremos en cuanto la primera versión esté lista.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PIE -->
+    <footer class="pie">
+      <p>Hecho por Kevin Rodríguez · KrypTon · <a href="https://devkrypton.com">devkrypton.com</a> · <a
+          href="privacidad.html">Privacidad</a></p>
+    </footer>
+
+  </main>
+
+  <!-- Calculadora de tiempo perdido -->
+  <script>
+    (function () {
+      var DIAS = { semana: 6, mes: 26, anio: 300 };
+      var JORNADA_H = 8;
+
+      var elCitas = document.getElementById('calc-citas');
+      var elMetodo = document.getElementById('calc-metodo');
+      var out = {
+        dia: document.getElementById('calc-dia'),
+        semana: document.getElementById('calc-semana'),
+        mes: document.getElementById('calc-mes'),
+        anio: document.getElementById('calc-anio'),
+        jornadas: document.getElementById('calc-jornadas')
+      };
+
+      function numEs(n, dec) {
+        return n.toLocaleString('es-ES', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+      }
+
+      // Formatea minutos: < 60 min -> "X min"; si no -> "X,X h"
+      function fmt(minutos) {
+        if (minutos <= 0) return '0 min';
+        if (minutos < 60) return numEs(Math.round(minutos), 0) + ' min';
+        return numEs(minutos / 60, 1) + ' h';
+      }
+
+      function calcular() {
+        var citas = parseInt(elCitas.value, 10);
+        if (isNaN(citas) || citas < 0) citas = 0;
+        var minPorReserva = parseFloat(elMetodo.value);
+
+        var minDia = citas * minPorReserva;
+
+        out.dia.textContent = fmt(minDia);
+        out.semana.textContent = fmt(minDia * DIAS.semana);
+        out.mes.textContent = fmt(minDia * DIAS.mes);
+        out.anio.textContent = fmt(minDia * DIAS.anio);
+
+        var horasAnio = (minDia * DIAS.anio) / 60;
+        var jornadas = horasAnio / JORNADA_H;
+
+        if (jornadas < 0.1) {
+          out.jornadas.innerHTML = 'Rellena tus datos para ver el impacto.';
+        } else {
+          out.jornadas.innerHTML = 'Equivale a <span class="calc-destacado">' +
+            numEs(jornadas, jornadas < 10 ? 1 : 0) +
+            (jornadas >= 2 ? ' jornadas' : ' jornada') +
+            ' de trabajo al año</span> solo en tareas administrativas.';
+        }
+      }
+
+      document.querySelectorAll('.calc-step').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var delta = parseInt(btn.getAttribute('data-step'), 10);
+          var v = parseInt(elCitas.value, 10);
+          if (isNaN(v)) v = 0;
+          v = Math.min(200, Math.max(0, v + delta));
+          elCitas.value = v;
+          calcular();
+        });
+      });
+
+      elCitas.addEventListener('input', calcular);
+      elMetodo.addEventListener('change', calcular);
+
+      calcular();
+    })();
+  </script>
+
+  <!-- ============================================================= -->
+  <!-- FIREBASE: guarda los nombres y emails en Firestore            -->
+  <!-- ============================================================= -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+    import { getFirestore, collection, addDoc, serverTimestamp }
+      from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDm7Nm5rYNtAqryi8EwVWV4pxd72VeHN50",
+      authDomain: "krypton-ebbc3.firebaseapp.com",
+      projectId: "krypton-ebbc3",
+      storageBucket: "krypton-ebbc3.firebasestorage.app",
+      messagingSenderId: "762807015953",
+      appId: "1:762807015953:web:79c41836bb30dee9b6efb0"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    // Exponemos la función para que el botón la pueda llamar
+    window.enviarFormulario = async function () {
+      const nombre = document.getElementById('nombre');
+      const email = document.getElementById('email');
+      const consentimiento = document.getElementById('consentimiento');
+      const errorMsg = document.getElementById('form-error');
+      const boton = document.getElementById('boton-enviar');
+
+      // Validación básica
+      const emailValido = email.value.trim().includes('@') && email.value.trim().includes('.');
+      let hayError = false;
+
+      email.classList.remove('error');
+      if (!emailValido) { email.classList.add('error'); hayError = true; }
+      if (!consentimiento.checked) { hayError = true; }
+
+      if (hayError) { errorMsg.style.display = 'block'; return; }
+      errorMsg.style.display = 'none';
+
+      boton.disabled = true;
+      boton.textContent = 'Guardando...';
+
+      try {
+        await addDoc(collection(db, "listaEspera"), {
+          nombre: nombre.value.trim() || "(sin nombre)",
+          email: email.value.trim(),
+          fecha: serverTimestamp(),
+          origen: "landing"
+        });
+        // Éxito
+        document.getElementById('form-campos').style.display = 'none';
+        document.getElementById('form-exito').style.display = 'block';
+      } catch (e) {
+        console.error("Error al guardar:", e);
+        boton.disabled = false;
+        boton.textContent = 'Apuntarme a la lista';
+        errorMsg.textContent = 'Ups, algo falló. Inténtalo de nuevo en un momento.';
+        errorMsg.style.display = 'block';
+      }
+    };
+  </script>
+
 </body>
+
 </html>
